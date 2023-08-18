@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All test suite">
+	<test name="ManuallyCreating">
+		<classes>
+			
+			<class name="TestNgUsage.GoogleTestNg">
+				<methods>
+					<include name="setup"/>
+					<include name="SearchField"/>
+					<include name="TheResult"/>
+					<include name="OpenTheKey"/>
+					
+				</methods>
+			</class>
+			<class name="TestNgUsage.SecondTestNG">
+				<methods>
+					<include name="Setup"/>
+					<include name="SearchCustomer"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- GoogleSuite -->
